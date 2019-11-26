@@ -59,6 +59,7 @@ article h2 {
 
 article {
 	background-color: white;
+	max-width: 600px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -106,6 +107,7 @@ article button {
 	-o-border-radius: 3px;
 }
 
+/*footer*/
 footer {
 	margin: 0 auto;
 	padding-bottom: 10px;
@@ -132,6 +134,13 @@ footer section a {
 }
 
 @media only screen and (min-height: 600px) and (orientation: portrait) {
+	footer {
+		position: fixed;
+		bottom: 0;
+	}
+}
+
+@media only screen and (min-height: 600px) and (orientation: landscape) {
 	footer {
 		position: fixed;
 		bottom: 0;
